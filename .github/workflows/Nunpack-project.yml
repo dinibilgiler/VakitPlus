@@ -43,5 +43,5 @@ jobs:
             echo "Kaydedilecek yeni değişiklik yok."
           else
             git commit -m "Vakit+ final proje dosyalarını çıkar"
-            git push origin "HEAD:${{ github.ref_name }}"
+            git push "https://x-access-token:${{ secrets.VAKITPLUS_TOKEN }}@github.com/${{ github.repository }}.git" HEAD:${{ github.ref_name }}
           fi
