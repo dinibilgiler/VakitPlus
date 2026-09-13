@@ -1,0 +1,61 @@
+name: Vakit+ AAB Oluştur
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    name: Release AAB
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Kaynak kodu al
+        uses: actions/checkout@v4
+
+      - name: JDK 21 kur
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+
+      - name: Gradle kur
+        uses: gradle/actions/setup-gradle@v4
+
+      - name: Android SDK 36 hazırla
+        run: |
+          yes | sdkmanager --licenses >/dev/null || true
+          sdkmanager "platforms;android-36" "build-tools;36.0.0"
+
+      - name: Projeyi bul
+        shell: bash
+        run: |
+          if [ -f "settings.gradle.kts" ] || [ -f "settings.gradle" ]; then
+            echo "PROJECT_DIR=." >> "$GITHUB_ENV"
+          elif [ -f "uygulama/settings.gradle.kts" ] || [ -f "uygulama/settings.gradle" ]; then
+            echo "PROJECT_DIR=uygulama" >> "$GITHUB_ENV"
+          else
+            echo "Gradle projesi bulunamadı."
+            exit 1
+          fi
+
+      - name: AAB oluştur
+        shell: bash
+        run: |
+          cd "$PROJECT_DIR"
+          gradle :app:bundleRelease --no-daemon
+
+      - name: AAB dosyasını bul
+        shell: bash
+        run: |
+          find . -type f -path "*/build/outputs/bundle/release/*.aab" -print
+
+      - name: AAB'yi yükle
+        uses: actions/upload-artifact@v4
+        with:
+          name: VakitPlus-release-AAB
+          path: |
+            **/build/outputs/bundle/release/*.aab
+          if-no-files-found: error
