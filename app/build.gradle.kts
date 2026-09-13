@@ -10,8 +10,8 @@ android {
         applicationId = "com.vakitplus.app"
         minSdk = 26
         targetSdk = 36
-        versionCode = 26
-        versionName = "2.5.1"
+        versionCode = 27
+        versionName = "2.5.2"
     }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_21

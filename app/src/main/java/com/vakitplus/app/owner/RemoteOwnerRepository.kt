@@ -2,7 +2,7 @@ package com.vakitplus.app.owner
 
 import android.content.Context
 
-class RemoteOwnerRepository(private val context: Context) {
+class RemoteOwnerRepository(val context: Context) {
     private val store = SecureSessionStore(context)
     private fun api(): OwnerRestClient {
         val url = RemoteOwnerConfig.getBaseUrl(context)
