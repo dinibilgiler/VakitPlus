@@ -11,37 +11,51 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Repository'yi al
+      - name: Depoyu al
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.VAKITPLUS_TOKEN }}
-          fetch-depth: 0
 
-      - name: ZIP'i aç ve projeyi yerleştir
+      - name: En yeni VakitPlus ZIP dosyasını bul ve aç
+        shell: bash
         run: |
+          set -e
+
+          ZIP="$(find . -maxdepth 1 -type f -name 'VakitPlus-*.zip' -printf '%T@ %p\n' \
+            | sort -nr \
+            | head -n 1 \
+            | cut -d' ' -f2-)"
+
+          if [ -z "$ZIP" ]; then
+            echo "VakitPlus ZIP dosyası bulunamadı."
+            exit 1
+          fi
+
+          echo "Kullanılacak ZIP: $ZIP"
+
           rm -rf /tmp/vakitplus
           mkdir -p /tmp/vakitplus
 
-          unzip -q "VakitPlus-CODEMAGIC-READY-FINAL.zip" -d /tmp/vakitplus
+          unzip -q "$ZIP" -d /tmp/vakitplus
 
           if [ -d "/tmp/vakitplus/VakitPlus" ]; then
-            cp -a /tmp/vakitplus/VakitPlus/. .
+            SRC="/tmp/vakitplus/VakitPlus"
           else
-            cp -a /tmp/vakitplus/. .
+            SRC="/tmp/vakitplus"
           fi
 
-          rm -f "VakitPlus-CODEMAGIC-READY-FINAL.zip"
+          cp -a "$SRC"/. .
 
-      - name: Projeyi GitHub'a kaydet
+          echo "VakitPlus projesi başarıyla yerleştirildi."
+
+      - name: Değişiklikleri GitHub'a gönder
+        shell: bash
         run: |
+          set -e
+
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           git add -A
-
-          if git diff --cached --quiet; then
-            echo "Kaydedilecek yeni değişiklik yok."
-          else
-            git commit -m "Vakit+ final proje dosyalarını çıkar"
-            git push "https://x-access-token:${{ secrets.VAKITPLUS_TOKEN }}@github.com/${{ github.repository }}.git" HEAD:${{ github.ref_name }}
-          fi
+          git commit -m "Vakit+ V2.5.1 JVM düzeltmesini uygula" || echo "Commit edilecek yeni değişiklik yok."
+          git push
