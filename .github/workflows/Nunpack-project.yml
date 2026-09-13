@@ -13,6 +13,8 @@ jobs:
     steps:
       - name: Repository'yi al
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.VAKITPLUS_TOKEN }}
 
       - name: ZIP'i aç
         run: |
