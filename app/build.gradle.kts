@@ -10,8 +10,12 @@ android {
         applicationId = "com.vakitplus.app"
         minSdk = 26
         targetSdk = 36
-        versionCode = 25
-        versionName = "2.5.0"
+        versionCode = 26
+        versionName = "2.5.1"
+    }
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_21
+        targetCompatibility = JavaVersion.VERSION_21
     }
     buildFeatures { compose = true }
     signingConfigs {
@@ -38,6 +42,11 @@ android {
     }
     packaging { resources.excludes += "/META-INF/{AL2.0,LGPL2.1}" }
 }
+
+kotlin {
+    jvmToolchain(21)
+}
+
 dependencies {
     implementation(platform("androidx.compose:compose-bom:2025.02.00"))
     implementation("androidx.activity:activity-compose:1.10.1")
