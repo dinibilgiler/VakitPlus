@@ -22,7 +22,7 @@ jobs:
           rm -rf /tmp/vakitplus
           mkdir -p /tmp/vakitplus
 
-          unzip -q "VakitPlus-FINAL-CLOUD-BUILD-2.zip" -d /tmp/vakitplus
+          unzip -q "VakitPlus-CODEMAGIC-READY-FINAL.zip" -d /tmp/vakitplus
 
           if [ -d "/tmp/vakitplus/VakitPlus" ]; then
             cp -a /tmp/vakitplus/VakitPlus/. .
@@ -30,7 +30,7 @@ jobs:
             cp -a /tmp/vakitplus/. .
           fi
 
-          rm -f "VakitPlus-FINAL-CLOUD-BUILD-2.zip"
+          rm -f "VakitPlus-CODEMAGIC-READY-FINAL.zip"
 
       - name: Projeyi GitHub'a kaydet
         run: |
