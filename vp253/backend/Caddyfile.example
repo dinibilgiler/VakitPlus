@@ -1,0 +1,5 @@
+# Örnek HTTPS reverse proxy
+# owner.example.com alan adını kendi sunucunuza yönlendirin.
+owner.example.com {
+    reverse_proxy 127.0.0.1:8080
+}

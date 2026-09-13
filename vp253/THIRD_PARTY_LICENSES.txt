@@ -1,0 +1,11 @@
+Quran text source
+-----------------
+The bundled Arabic Quran text is derived from qurantext-uthmani.def from the LaTeX quran package.
+Copyright © 2015-2024 Seiied-Mohammad-Javad Razavian.
+Distributed under the LaTeX Project Public License (LPPL), version 1.3c or later.
+The original license notice is preserved in app/src/main/assets/THIRD_PARTY_qurantext-uthmani.def.
+
+Tanzil reference
+----------------
+For a production release, Quran text should be validated against an authoritative source.
+Tanzil Project permits verbatim use of its Quran text in applications when the source is clearly indicated and a link to tanzil.net is provided. See https://tanzil.net/docs/Text_License
