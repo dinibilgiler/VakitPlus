@@ -1,0 +1,14 @@
+{
+  "name": "vakitplus-owner-backend",
+  "version": "2.1.0",
+  "private": true,
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "firebase-admin": "^14.4.0"
+  }
+}

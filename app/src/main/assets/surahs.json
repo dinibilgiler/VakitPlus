@@ -1,0 +1,572 @@
+[
+  {
+    "no": 1,
+    "name": "Fâtiha",
+    "ayahCount": 7
+  },
+  {
+    "no": 2,
+    "name": "Bakara",
+    "ayahCount": 286
+  },
+  {
+    "no": 3,
+    "name": "Âl-i İmrân",
+    "ayahCount": 200
+  },
+  {
+    "no": 4,
+    "name": "Nisâ",
+    "ayahCount": 176
+  },
+  {
+    "no": 5,
+    "name": "Mâide",
+    "ayahCount": 120
+  },
+  {
+    "no": 6,
+    "name": "En'âm",
+    "ayahCount": 165
+  },
+  {
+    "no": 7,
+    "name": "A'râf",
+    "ayahCount": 206
+  },
+  {
+    "no": 8,
+    "name": "Enfâl",
+    "ayahCount": 75
+  },
+  {
+    "no": 9,
+    "name": "Tevbe",
+    "ayahCount": 129
+  },
+  {
+    "no": 10,
+    "name": "Yûnus",
+    "ayahCount": 109
+  },
+  {
+    "no": 11,
+    "name": "Hûd",
+    "ayahCount": 123
+  },
+  {
+    "no": 12,
+    "name": "Yûsuf",
+    "ayahCount": 111
+  },
+  {
+    "no": 13,
+    "name": "Ra'd",
+    "ayahCount": 43
+  },
+  {
+    "no": 14,
+    "name": "İbrâhîm",
+    "ayahCount": 52
+  },
+  {
+    "no": 15,
+    "name": "Hicr",
+    "ayahCount": 99
+  },
+  {
+    "no": 16,
+    "name": "Nahl",
+    "ayahCount": 128
+  },
+  {
+    "no": 17,
+    "name": "İsrâ",
+    "ayahCount": 111
+  },
+  {
+    "no": 18,
+    "name": "Kehf",
+    "ayahCount": 110
+  },
+  {
+    "no": 19,
+    "name": "Meryem",
+    "ayahCount": 98
+  },
+  {
+    "no": 20,
+    "name": "Tâhâ",
+    "ayahCount": 135
+  },
+  {
+    "no": 21,
+    "name": "Enbiyâ",
+    "ayahCount": 112
+  },
+  {
+    "no": 22,
+    "name": "Hac",
+    "ayahCount": 78
+  },
+  {
+    "no": 23,
+    "name": "Mü'minûn",
+    "ayahCount": 118
+  },
+  {
+    "no": 24,
+    "name": "Nûr",
+    "ayahCount": 64
+  },
+  {
+    "no": 25,
+    "name": "Furkân",
+    "ayahCount": 77
+  },
+  {
+    "no": 26,
+    "name": "Şuarâ",
+    "ayahCount": 227
+  },
+  {
+    "no": 27,
+    "name": "Neml",
+    "ayahCount": 93
+  },
+  {
+    "no": 28,
+    "name": "Kasas",
+    "ayahCount": 88
+  },
+  {
+    "no": 29,
+    "name": "Ankebût",
+    "ayahCount": 69
+  },
+  {
+    "no": 30,
+    "name": "Rûm",
+    "ayahCount": 60
+  },
+  {
+    "no": 31,
+    "name": "Lokmân",
+    "ayahCount": 34
+  },
+  {
+    "no": 32,
+    "name": "Secde",
+    "ayahCount": 30
+  },
+  {
+    "no": 33,
+    "name": "Ahzâb",
+    "ayahCount": 73
+  },
+  {
+    "no": 34,
+    "name": "Sebe'",
+    "ayahCount": 54
+  },
+  {
+    "no": 35,
+    "name": "Fâtır",
+    "ayahCount": 45
+  },
+  {
+    "no": 36,
+    "name": "Yâsîn",
+    "ayahCount": 83
+  },
+  {
+    "no": 37,
+    "name": "Sâffât",
+    "ayahCount": 182
+  },
+  {
+    "no": 38,
+    "name": "Sâd",
+    "ayahCount": 88
+  },
+  {
+    "no": 39,
+    "name": "Zümer",
+    "ayahCount": 75
+  },
+  {
+    "no": 40,
+    "name": "Mü'min",
+    "ayahCount": 85
+  },
+  {
+    "no": 41,
+    "name": "Fussilet",
+    "ayahCount": 54
+  },
+  {
+    "no": 42,
+    "name": "Şûrâ",
+    "ayahCount": 53
+  },
+  {
+    "no": 43,
+    "name": "Zuhruf",
+    "ayahCount": 89
+  },
+  {
+    "no": 44,
+    "name": "Duhân",
+    "ayahCount": 59
+  },
+  {
+    "no": 45,
+    "name": "Câsiye",
+    "ayahCount": 37
+  },
+  {
+    "no": 46,
+    "name": "Ahkâf",
+    "ayahCount": 35
+  },
+  {
+    "no": 47,
+    "name": "Muhammed",
+    "ayahCount": 38
+  },
+  {
+    "no": 48,
+    "name": "Fetih",
+    "ayahCount": 29
+  },
+  {
+    "no": 49,
+    "name": "Hucurât",
+    "ayahCount": 18
+  },
+  {
+    "no": 50,
+    "name": "Kâf",
+    "ayahCount": 45
+  },
+  {
+    "no": 51,
+    "name": "Zâriyât",
+    "ayahCount": 60
+  },
+  {
+    "no": 52,
+    "name": "Tûr",
+    "ayahCount": 49
+  },
+  {
+    "no": 53,
+    "name": "Necm",
+    "ayahCount": 62
+  },
+  {
+    "no": 54,
+    "name": "Kamer",
+    "ayahCount": 55
+  },
+  {
+    "no": 55,
+    "name": "Rahmân",
+    "ayahCount": 78
+  },
+  {
+    "no": 56,
+    "name": "Vâkıa",
+    "ayahCount": 96
+  },
+  {
+    "no": 57,
+    "name": "Hadîd",
+    "ayahCount": 29
+  },
+  {
+    "no": 58,
+    "name": "Mücâdele",
+    "ayahCount": 22
+  },
+  {
+    "no": 59,
+    "name": "Haşr",
+    "ayahCount": 24
+  },
+  {
+    "no": 60,
+    "name": "Mümtehine",
+    "ayahCount": 13
+  },
+  {
+    "no": 61,
+    "name": "Saff",
+    "ayahCount": 14
+  },
+  {
+    "no": 62,
+    "name": "Cuma",
+    "ayahCount": 11
+  },
+  {
+    "no": 63,
+    "name": "Münâfikûn",
+    "ayahCount": 11
+  },
+  {
+    "no": 64,
+    "name": "Teğâbün",
+    "ayahCount": 18
+  },
+  {
+    "no": 65,
+    "name": "Talâk",
+    "ayahCount": 12
+  },
+  {
+    "no": 66,
+    "name": "Tahrîm",
+    "ayahCount": 12
+  },
+  {
+    "no": 67,
+    "name": "Mülk",
+    "ayahCount": 30
+  },
+  {
+    "no": 68,
+    "name": "Kalem",
+    "ayahCount": 52
+  },
+  {
+    "no": 69,
+    "name": "Hâkka",
+    "ayahCount": 52
+  },
+  {
+    "no": 70,
+    "name": "Meâric",
+    "ayahCount": 44
+  },
+  {
+    "no": 71,
+    "name": "Nûh",
+    "ayahCount": 28
+  },
+  {
+    "no": 72,
+    "name": "Cin",
+    "ayahCount": 28
+  },
+  {
+    "no": 73,
+    "name": "Müzzemmil",
+    "ayahCount": 20
+  },
+  {
+    "no": 74,
+    "name": "Müddessir",
+    "ayahCount": 56
+  },
+  {
+    "no": 75,
+    "name": "Kıyâme",
+    "ayahCount": 40
+  },
+  {
+    "no": 76,
+    "name": "İnsân",
+    "ayahCount": 31
+  },
+  {
+    "no": 77,
+    "name": "Mürselât",
+    "ayahCount": 50
+  },
+  {
+    "no": 78,
+    "name": "Nebe",
+    "ayahCount": 40
+  },
+  {
+    "no": 79,
+    "name": "Nâziât",
+    "ayahCount": 46
+  },
+  {
+    "no": 80,
+    "name": "Abese",
+    "ayahCount": 42
+  },
+  {
+    "no": 81,
+    "name": "Tekvîr",
+    "ayahCount": 29
+  },
+  {
+    "no": 82,
+    "name": "İnfitâr",
+    "ayahCount": 19
+  },
+  {
+    "no": 83,
+    "name": "Mutaffifîn",
+    "ayahCount": 36
+  },
+  {
+    "no": 84,
+    "name": "İnşikâk",
+    "ayahCount": 25
+  },
+  {
+    "no": 85,
+    "name": "Burûc",
+    "ayahCount": 22
+  },
+  {
+    "no": 86,
+    "name": "Târık",
+    "ayahCount": 17
+  },
+  {
+    "no": 87,
+    "name": "A'lâ",
+    "ayahCount": 19
+  },
+  {
+    "no": 88,
+    "name": "Gâşiye",
+    "ayahCount": 26
+  },
+  {
+    "no": 89,
+    "name": "Fecr",
+    "ayahCount": 30
+  },
+  {
+    "no": 90,
+    "name": "Beled",
+    "ayahCount": 20
+  },
+  {
+    "no": 91,
+    "name": "Şems",
+    "ayahCount": 15
+  },
+  {
+    "no": 92,
+    "name": "Leyl",
+    "ayahCount": 21
+  },
+  {
+    "no": 93,
+    "name": "Duhâ",
+    "ayahCount": 11
+  },
+  {
+    "no": 94,
+    "name": "İnşirâh",
+    "ayahCount": 8
+  },
+  {
+    "no": 95,
+    "name": "Tîn",
+    "ayahCount": 8
+  },
+  {
+    "no": 96,
+    "name": "Alak",
+    "ayahCount": 19
+  },
+  {
+    "no": 97,
+    "name": "Kadir",
+    "ayahCount": 5
+  },
+  {
+    "no": 98,
+    "name": "Beyyine",
+    "ayahCount": 8
+  },
+  {
+    "no": 99,
+    "name": "Zilzâl",
+    "ayahCount": 8
+  },
+  {
+    "no": 100,
+    "name": "Âdiyât",
+    "ayahCount": 11
+  },
+  {
+    "no": 101,
+    "name": "Kâria",
+    "ayahCount": 11
+  },
+  {
+    "no": 102,
+    "name": "Tekâsür",
+    "ayahCount": 8
+  },
+  {
+    "no": 103,
+    "name": "Asr",
+    "ayahCount": 3
+  },
+  {
+    "no": 104,
+    "name": "Hümeze",
+    "ayahCount": 9
+  },
+  {
+    "no": 105,
+    "name": "Fîl",
+    "ayahCount": 5
+  },
+  {
+    "no": 106,
+    "name": "Kureyş",
+    "ayahCount": 4
+  },
+  {
+    "no": 107,
+    "name": "Mâûn",
+    "ayahCount": 7
+  },
+  {
+    "no": 108,
+    "name": "Kevser",
+    "ayahCount": 3
+  },
+  {
+    "no": 109,
+    "name": "Kâfirûn",
+    "ayahCount": 6
+  },
+  {
+    "no": 110,
+    "name": "Nasr",
+    "ayahCount": 3
+  },
+  {
+    "no": 111,
+    "name": "Tebbet",
+    "ayahCount": 5
+  },
+  {
+    "no": 112,
+    "name": "İhlâs",
+    "ayahCount": 4
+  },
+  {
+    "no": 113,
+    "name": "Felak",
+    "ayahCount": 5
+  },
+  {
+    "no": 114,
+    "name": "Nâs",
+    "ayahCount": 6
+  }
+]
